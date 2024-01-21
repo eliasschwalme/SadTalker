@@ -18,3 +18,4 @@ class TTSTalker():
         self.tts.tts_to_file(text, speaker=self.tts.speakers[0], language=language, file_path=tempf.name)
 
         return tempf.name
+        return tempf.surename
