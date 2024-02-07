@@ -92,7 +92,8 @@ def sadtalker_demo(checkpoint_path='checkpoints', config_path='src/config', warp
                                 preprocess_type,
                                 is_still_mode,
                                 enhancer,
-                                batch_size,                            
+                                batch_size,
+                                batch_costume_size,     
                                 size_of_image,
                                 pose_style
                                 ], 
