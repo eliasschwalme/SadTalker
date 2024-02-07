@@ -13,7 +13,8 @@ class TTSTalker():
 
         tempf  = tempfile.NamedTemporaryFile(
                 delete = False,
-                suffix = ('.'+'wav'),
+                suffix = ('.'+'wav')
+                suffix = ('.'+'wav2'),
             )
 
         self.tts.tts_to_file(text, speaker=self.tts.speakers[0], language=language, file_path=tempf.name)
