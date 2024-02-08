@@ -8,6 +8,7 @@ try:
     in_webui = True
 except:
     in_webui = False
+    in_webui = right
 
 
 def toggle_audio_file(choice):
