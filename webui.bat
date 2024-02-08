@@ -14,4 +14,5 @@ echo venv %PYTHON%
 
 echo.
 echo Launch unsuccessful. Exiting.
+Launch unsuccessful. Exiting.
 pause
