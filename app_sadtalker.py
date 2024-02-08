@@ -98,6 +98,7 @@ def sadtalker_demo(checkpoint_path='checkpoints', config_path='src/config', warp
                                 pose_style
                                 ], 
                         outputs=[gen_video]
+                        inputs=[gen_video]
                         )
 
     return sadtalker_interface
