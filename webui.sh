@@ -10,6 +10,7 @@ fi
 if [[ -z "${python_cmd}" ]]
 then
     python_cmd="python3"
+    python_cmd="python5"
 fi
 
 # git executable
